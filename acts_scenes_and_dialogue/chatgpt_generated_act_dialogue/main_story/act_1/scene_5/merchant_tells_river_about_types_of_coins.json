@@ -1,0 +1,34 @@
+{
+    "dialogue": [
+        {
+            "id": "dia-1",
+            "response": [
+                {
+                    "id": "res-1",
+                    "character": "Travelling Merchant",
+                    "text": "Have you ever seen a coin with a face on it?"
+                },
+                {
+                    "id": "res-2",
+                    "character": "River",
+                    "text": "Yes, I have. They are quite common, are they not?"
+                },
+                {
+                    "id": "res-3",
+                    "character": "Travelling Merchant",
+                    "text": "Yes, they are. But, did you know that these coins with a face on them are believed to give the holder certain superpowers? But be warned, it also takes some of your strength and gives it to the being with the face on the coin."
+                },
+                {
+                    "id": "res-4",
+                    "character": "River",
+                    "text": "Really? What kind of superpowers?"
+                },
+                {
+                    "id": "res-5",
+                    "character": "Travelling Merchant",
+                    "text": "The coins with the face of a lion are said to give the holder strength, the coins with the face of an eagle are said to give the holder speed, and the coins with the face of a snake are said to give the holder the ability to heal quickly. But remember, the power comes at a cost."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "conversation": [
+        {
+            "id": "1",
+            "speaker": "River",
+            "text": "Hey Mood, I've been wondering, can you tell me about your guild?"
+        },
+        {
+            "id": "2",
+            "speaker": "Mood",
+            "text": "Sure, I'm a part of the Night Saints guild. We're a pretty tight-knit group and I'm proud to be a part of it. I can introduce you to some of the members if you'd like?"
+        },
+        {
+            "id": "3",
+            "speaker": "River",
+            "text": "That would be great, thank you!"
+        },
+        {
+            "id": "4",
+            "speaker": "Mood",
+            "text": "Alright, let's start with our guild leader, Harvest. He's a great leader, always looking out for the guild. Then there's Death, she's our resident assassin, and Blood, our warrior. Law is our strategist, Trial is our mage and Loss, is our rogue. All of them are great players and great friends."
+        },
+        {
+            "id": "5",
+            "speaker": "River",
+            "text": "Wow, that sounds like a great group of people to be around. How did you all meet?"
+        },
+        {
+            "id": "6",
+            "speaker": "Mood",
+            "text": "We all met playing the game and decided to form a guild together. We've been through a lot and have grown to become a strong and tight-knit group. I'm lucky to have them all in my life."
+        }
+    ]
+}

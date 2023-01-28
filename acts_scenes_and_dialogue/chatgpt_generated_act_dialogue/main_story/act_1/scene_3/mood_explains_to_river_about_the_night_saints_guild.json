@@ -1,0 +1,34 @@
+{
+    "conversation": [
+        {
+            "id": "1",
+            "speaker": "River",
+            "text": "Hey Mood, I've been wondering, can you tell me about your guild?"
+        },
+        {
+            "id": "2",
+            "speaker": "Mood",
+            "text": "Sure, I'm a part of the Night Saints guild. We are a divine guild, only those who have a divine purpose can join us. I can introduce you to some of the members if you'd like?"
+        },
+        {
+            "id": "3",
+            "speaker": "River",
+            "text": "That would be great, thank you!"
+        },
+        {
+            "id": "4",
+            "speaker": "Mood",
+            "text": "Alright, let's start with our guild leader, Harvest. He's a powerful leader, chosen by the gods. Then there's Death, she's our resident assassin, chosen by the gods to fulfill her destiny. Blood, our warrior, is a force to be reckoned with and chosen by the gods to protect the innocent. Law is our strategist, chosen by the gods to bring order. Trial is our mage, chosen by the gods to wield powerful magic. Loss, is our rogue, chosen by the gods to bring justice."
+        },
+        {
+            "id": "5",
+            "speaker": "River",
+            "text": "Wow, that sounds like a powerful group of people. How did you all meet?"
+        },
+        {
+            "id": "6",
+            "speaker": "Mood",
+            "text": "We all met on this path of destiny, and the gods brought us together. We've been through a lot and have grown to become a powerful group of divine beings. I'm lucky to have them all by my side."
+        }
+    ]
+}

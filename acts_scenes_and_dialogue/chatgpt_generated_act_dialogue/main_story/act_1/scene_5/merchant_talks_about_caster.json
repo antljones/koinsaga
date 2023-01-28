@@ -1,0 +1,34 @@
+{
+    "dialogue": [
+        {
+            "id": "dia-1",
+            "response": [
+                {
+                    "id": "res-1",
+                    "character": "Travelling Merchant",
+                    "text": "Say, I couldn't help but notice that you're carrying some valuable metals with you. Have you ever thought about casting them into coins?"
+                },
+                {
+                    "id": "res-2",
+                    "character": "River",
+                    "text": "I, uh, I haven't really thought about it. I just use the coins I find or trade for."
+                },
+                {
+                    "id": "res-3",
+                    "character": "Travelling Merchant",
+                    "text": "Well, if you're willing to part with some of those metals, I know a skilled caster who can turn them into coins. It's a great way to increase their value and make them more easily tradeable."
+                },
+                {
+                    "id": "res-4",
+                    "character": "River",
+                    "text": "I see. That sounds interesting. Do you think the caster would be willing to take a look at my metals?"
+                },
+                {
+                    "id": "res-5",
+                    "character": "Travelling Merchant",
+                    "text": "Of course! I'll be happy to introduce you. Just follow me and I'll take you to him."
+                }
+            ]
+        }
+    ]
+}

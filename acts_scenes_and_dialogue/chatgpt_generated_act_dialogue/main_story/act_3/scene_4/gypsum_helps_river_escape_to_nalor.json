@@ -1,0 +1,44 @@
+{
+    "conversation": [
+        {
+            "id": "1",
+            "speaker": "River",
+            "text": "What do your parents do for a living?"
+        },
+        {
+            "id": "2",
+            "speaker": "Gypsum",
+            "text": "My parents own a shipping business, we transport goods and people from one place to another."
+        },
+        {
+            "id": "3",
+            "speaker": "River",
+            "text": "That sounds interesting, do you work there too?"
+        },
+        {
+            "id": "4",
+            "speaker": "Gypsum",
+            "text": "I used to help out, but now I run my own clothing store. But I still have connections with the business, that's how I know the ships schedule and destinations."
+        },
+        {
+            "id": "5",
+            "speaker": "River",
+            "text": "I see, do they go to any specific place?"
+        },
+        {
+            "id": "6",
+            "speaker": "Gypsum",
+            "text": "Yes, one of our most frequent destinations is Nalor. It's a beautiful city, with a bustling market and friendly people. It's the perfect place to start a new life."
+        },
+        {
+            "id": "7",
+            "speaker": "River",
+            "text": "That sounds perfect, how can I escape by one of the ships?"
+        },
+        {
+            "id": "8",
+            "speaker": "Gypsum",
+            "text": "I can arrange for you to be on the next ship to Nalor. It's the perfect opportunity for you to escape and start a new life in a new place."
+        }
+    ]
+}

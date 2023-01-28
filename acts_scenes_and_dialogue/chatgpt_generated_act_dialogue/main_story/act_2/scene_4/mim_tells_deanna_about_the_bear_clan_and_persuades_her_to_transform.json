@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "speaker": "Mim",
+    "dialogue": "Hey Deanna, have you ever heard of the Bear Clan guild? They're a really powerful and respected guild in the area."
+  },
+  {
+    "id": 2,
+    "speaker": "Deanna",
+    "dialogue": "No, I haven't. What do they do?"
+  },
+  {
+    "id": 3,
+    "speaker": "Mim",
+    "dialogue": "Well, they're known for their strength and ferocity in battle. They also have a special ability where they can transform into bears to increase their power even more."
+  },
+  {
+    "id": 4,
+    "speaker": "Deanna",
+    "dialogue": "That sounds interesting. How do I join?"
+  },
+  {
+    "id": 5,
+    "speaker": "Mim",
+    "dialogue": "You have to pass a series of tests to prove yourself worthy and then complete a special ritual to gain the ability to transform. I'll help you prepare for the tests, it'll be so cool if we're in the same guild!"
+  },
+  {
+    "id": 6,
+    "speaker": "Deanna",
+    "dialogue": "Okay, I'm ready!"
+  },
+  {
+    "id": 7,
+    "speaker": "Mim",
+    "dialogue": "Great! Now, let's begin the transformation ritual."
+  },
+  {
+    "id": 8,
+    "speaker": "Deanna",
+    "dialogue": "I can feel my body changing, it's so strange."
+  },
+  {
+    "id": 9,
+    "speaker": "Mim",
+    "dialogue": "Wow, this is amazing! You look just like a bear! Wait, Deanna, are you a real bear?"
+  }
+]

@@ -1,0 +1,65 @@
+{ "coins":  
+	[
+		{
+			"name": "cope coin",
+			"details": "Assigns damage or loss of from one stat to another and prevents critical hits"
+			"type": "common coin"
+		},
+		{
+			"name": "copy coin"
+			"details": "Copies the abilities of another being or coin"
+			"type": "rare coin"
+		},
+		{
+			"name": "empower coin"
+			"details": "Buffs other holders of a face coin with the owner's stats"
+			"type": "rare coin"
+		},
+		{
+			"name": "Harvest Night Saint coin"
+			"details": "Allows the owner to communicate with other holders over long distances and receives the guild leader's abilities"
+			"type": "face coin"
+			"cons": "if you are not a member of the guild you cannot communicate with the guild members and you don't get the leadership bonus, gives guild leader more power"
+		},
+		{
+			"name": "transform coin"
+			"details": "Allows the user to save the current transformation up to a total of 4 transformations"
+			"cons": "only available for transforming type beings"
+		},
+		{
+			"name": "the literal god coin"
+			"details": "become immortal for 20 seconds and adds god like abilities for this time"
+			"type": "rare coin"
+		},
+		{
+			"name": "battle rage coin"
+			"details": "Buffs the user's critical strike by 20% and adds extra abilities while in battle"
+			"type": "common coin"
+		},
+		{
+			"name": "weapon coin"
+			"details": "Gives the user lightning based weapon abilities"
+			"type": "common coin"
+		},
+		{
+			"name": "damage buff coin"
+			"details": "increases damage done based on the being's age"
+			"type": "rare coin"
+		},
+		{
+			"name": "purge coin"
+			"details": "removes all abilities from a being permanently"
+			"cons": "can only be used by npcs"
+			"type": "unique coin"
+		},
+		{
+			"name": "berserk coin"
+			"details": "attack negates armor"
+			"type": "rare coin"
+		},
+		{
+			"name": "curse coin"
+			"details": "casts a random curse on a target"
+		}
+	]
+}

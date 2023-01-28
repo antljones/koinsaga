@@ -1,0 +1,34 @@
+{
+    "dialogue": [
+        {
+            "id": "dia-1",
+            "response": [
+                {
+                    "id": "res-1",
+                    "character": "Travelling Merchant",
+                    "text": "Have you ever heard of the Slavic mythological animals? like the Zmey, a dragon-like creature, or the Leshy, a forest spirit?"
+                },
+                {
+                    "id": "res-2",
+                    "character": "River",
+                    "text": "I've heard some stories, but I'm not very familiar with them."
+                },
+                {
+                    "id": "res-3",
+                    "character": "Travelling Merchant",
+                    "text": "The Zmey is said to be a powerful protector of the land and its people, while the Leshy is a trickster and a guardian of the forest. They're both fascinating and important figures in Slavic folklore."
+                },
+                {
+                    "id": "res-4",
+                    "character": "River",
+                    "text": "That's really interesting. I'll have to learn more about them."
+                },
+                {
+                    "id": "res-5",
+                    "character": "Travelling Merchant",
+                    "text": "I have some books on the subject if you're interested. I can sell them to you at a fair price."
+                }
+            ]
+        }
+    ]
+}

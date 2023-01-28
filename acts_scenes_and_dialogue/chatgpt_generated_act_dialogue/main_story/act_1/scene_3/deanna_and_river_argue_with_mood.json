@@ -1,0 +1,83 @@
+{
+    "characters": {
+        "River": {
+            "name": "River",
+            "dialogue": [
+                {
+                    "id": "d1ab2c3d4",
+                    "text":"Mood, what are you doing? Stop this madness!",
+                    "response": [
+                        {
+                            "id": "r1ab2c3d4",
+                            "text": "I can't believe you would do this, Mood! I thought you were better than this!",
+                            "speaker": "River"
+                        }
+                    ]
+                },
+                {
+                    "id": "d5ef6g7h8",
+                    "text":"Deanna, are you okay? I'll make sure Mood won't hurt you again.",
+                    "response": [
+                        {
+                            "id": "r5ef6g7h8",
+                            "text": "I'm fine, thanks for protecting me, River.",
+                            "speaker": "Deanna"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Deanna": {
+            "name": "Deanna",
+            "dialogue": [
+                {
+                    "id": "d9ij0klm1",
+                    "text":"Mood, why are you doing this? We've known each other for so long!",
+                    "response": [
+                        {
+                            "id": "r9ij0klm1",
+                            "text": "I don't know what's gotten into you, Mood, but this has to stop!",
+                            "speaker": "Deanna"
+                        }
+                    ]
+                },
+                {
+                    "id": "d2n3o4p5",
+                    "text":"I'll make sure you pay for what you've done, Mood.",
+                    "response": [
+                        {
+                            "id": "r2n3o4p5",
+                            "text": "I'll make sure justice is served for your actions.",
+                            "speaker": "Deanna"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Mood": {
+            "name": "Mood",
+            "dialogue": [
+                {
+                    "id": "d6q7r8s9",
+                    "text":"Deanna, you're too dangerous. I have to stop you.",
+                    "response": [
+                        {
+                            "id": "r6q7r8s9",
+                            "text": "I'm sorry, Deanna and River, but I must do this for the greater good.",
+                            "speaker": "Mood"
+                        }
+                    ]
+                },
+                {
+                    "id": "dtu0vwxyz",
+                    "text":"I'll make sure justice is served.",
+                    "response": [
+                        {
+                            "id": "rtu0vwxyz",
+                            "text": "I know this is hard for you to understand, but trust me, it's for the best.",
+                            "speaker": "Mood"
+                        }
+                    ]
+               }
+      }
+}

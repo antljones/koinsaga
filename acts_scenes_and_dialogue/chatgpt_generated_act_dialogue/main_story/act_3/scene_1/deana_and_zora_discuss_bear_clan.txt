@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "speaker": "Jasna",
+    "text": "I absolutely love the Bear Clan! It's the best guild out there. It all started a long time ago when people realized how strong and protective bears were. Unfortunately, bears went extinct, but their memory lives on in the Bear Clan."
+},
+{
+    "id": 2,
+    "speaker": "Jasna",
+    "text": "Being a part of the Bear Clan is like carrying on the legacy of the bears. We are a tribute to their strength and protectiveness. Plus, the bear form is just so cool! I can't imagine not being a part of this guild."
+},
+{
+    "id": 3,
+    "speaker": "Deanna",
+    "text": "Wow, I've never heard of a guild like that before. I'm definitely interested in joining."
+},
+{
+    "id": 4,
+    "speaker": "Jasna",
+    "text": "I'm so glad to hear that! The Bear Clan is always looking for new members who are dedicated to honoring the memory of bears. I can introduce you to the guild leader, Mim, and they can help you with the process."
+}

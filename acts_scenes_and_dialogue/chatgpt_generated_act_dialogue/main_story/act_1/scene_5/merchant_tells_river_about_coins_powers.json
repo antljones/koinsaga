@@ -1,0 +1,34 @@
+{
+    "dialogue": [
+        {
+            "id": "dia-1",
+            "response": [
+                {
+                    "id": "res-1",
+                    "character": "Travelling Merchant",
+                    "text": "Have you ever heard of coins that give you superpowers?"
+                },
+                {
+                    "id": "res-2",
+                    "character": "River",
+                    "text": "I can't say I have, that sounds like a myth."
+                },
+                {
+                    "id": "res-3",
+                    "character": "Travelling Merchant",
+                    "text": "It's not a myth, I assure you. I've come across coins that are said to give the holder the power of invisibility, the ability to control the elements, and even immortality."
+                },
+                {
+                    "id": "res-4",
+                    "character": "River",
+                    "text": "Wow, that is hard to believe. How do you know these coins are real?"
+                },
+                {
+                    "id": "res-5",
+                    "character": "Travelling Merchant",
+                    "text": "I've seen the effects with my own eyes. Of course, these coins are extremely rare and valuable. But, if you ever come across one, make sure to hold onto it tightly."
+                }
+            ]
+        }
+    ]
+}

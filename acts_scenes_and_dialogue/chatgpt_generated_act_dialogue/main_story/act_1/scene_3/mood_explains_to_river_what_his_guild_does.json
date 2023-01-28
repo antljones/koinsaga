@@ -1,0 +1,50 @@
+ 
+{
+    "conversation": [
+        {
+            "id": "1",
+            "speaker": "Mood",
+            "text": "Hey River, have you heard of the Night Saints guild?"
+        },
+        {
+            "id": "2",
+            "speaker": "River",
+            "text": "Yeah, I think I've heard of it. Isn't it a group of thieves and assassins?"
+        },
+        {
+            "id": "3",
+            "speaker": "Mood",
+            "text": "Yes, that's right. But we are not just thieves and assassins, we have a divine purpose. We are here to bring balance to the world."
+        },
+        {
+            "id": "4",
+            "speaker": "River",
+            "text": "Really? How do you see that?"
+        },
+        {
+            "id": "5",
+            "speaker": "Mood",
+            "text": "We remove the corrupt and the powerful who use their wealth to control and oppress others. By doing so, we restore the balance of power and create a fairer society."
+        },
+        {
+            "id": "6",
+            "speaker": "River",
+            "text": "Wow, that sounds like a noble cause. How did you get involved with the Night Saints?"
+        },
+        {
+            "id": "7",
+            "speaker": "Mood",
+            "text": "I was just like you, River. I didn't understand the true purpose of the Night Saints. But when I was given the opportunity to join, I knew it was my calling. I've never felt more fulfilled and sure of my purpose than I do now as a member of the Night Saints."
+        },
+        {
+            "id": "8",
+            "speaker": "River",
+            "text": "I can see how you would feel that way. It's admirable that you believe in the guild's mission so strongly."
+        },
+        {
+            "id": "9",
+            "speaker": "Mood",
+            "text": "Thank you, River. I believe that the Night Saints is the only way to bring about true change in this world."
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "dialogue": [
+        {
+            "id": "dia-1",
+            "response": [
+                {
+                    "id": "res-1",
+                    "character": "Travelling Merchant",
+                    "text": "Have you ever noticed the difference between coins with a face of a person on them and those without one?"
+                },
+                {
+                    "id": "res-2",
+                    "character": "River",
+                    "text": "I haven't really thought about it, to be honest."
+                },
+                {
+                    "id": "res-3",
+                    "character": "Travelling Merchant",
+                    "text": "Well, coins with a person's face on them usually represent a leader or ruler, and they serve as a symbol of authority and power. On the other hand, coins without a face on them usually have symbols or designs that represent the culture or values of the society that created them."
+                },
+                {
+                    "id": "res-4",
+                    "character": "River",
+                    "text": "I see, that makes sense. I never thought about the symbolism behind different types of coins."
+                },
+                {
+                    "id": "res-5",
+                    "character": "Travelling Merchant",
+                    "text": "It's always good to be aware of the history and meaning behind the things we use every day, like money. It gives us a deeper understanding of the world around us."
+                }
+            ]
+        }
+    ]
+}

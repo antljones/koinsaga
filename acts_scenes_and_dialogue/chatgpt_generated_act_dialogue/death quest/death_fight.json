@@ -1,0 +1,85 @@
+{
+    "characters": {
+        "River": {
+            "name": "River",
+            "dialogue": [
+                {
+                    "id": "1",
+                    "text":"Death, why is death something that we fear so much?",
+                    "response": [
+                        {
+                            "id": "1.1",
+                            "text": "Death is a primal fear, ingrained within all of humanity. It is the unknown, the inescapable end of one's existence.",
+                            "speaker": "Death"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "text":"Do you think there's any way to overcome the fear of death?",
+                    "response": [
+                        {
+                            "id": "2.1",
+                            "text": "The fear of death is a natural part of the human experience. It cannot be overcome, only accepted.",
+                            "speaker": "Death"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Deanna": {
+            "name": "Deanna",
+            "dialogue": [
+                {
+                    "id": "3",
+                    "text":"Death, can you tell us what happens when we die?",
+                    "response": [
+                        {
+                            "id": "3.1",
+                            "text": "I am the end of all things. I cannot give you an answer, as it is different for each soul that comes to me.",
+                            "speaker": "Death"
+                        }
+                    ]
+                },
+                {
+                    "id": "4",
+                    "text":"Is there any way to escape death?",
+                    "response": [
+                        {
+                            "id": "4.1",
+                            "text": "I am inevitable. I cannot be escaped.",
+                            "speaker": "Death"
+                        }
+                    ]
+                }
+            ]
+        },
+        "Death": {
+            "name": "Death",
+            "dialogue": [
+                {
+                    "id": "5",
+                    "text":"I am the end of all things, the final destination for all souls.",
+                    "response": [
+                        {
+                            "id": "5.1",
+                            "text": "I am neither good nor evil, I simply am.",
+                            "speaker": "Death"
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "text":"Acceptance is the key to understanding death. Embrace the unknown and the inevitability of my embrace.",
+                    "response": [
+                        {
+                            "id": "6.1",
+                            "text": "It is only by accepting death that one can truly live.",
+                            "speaker": "Death"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

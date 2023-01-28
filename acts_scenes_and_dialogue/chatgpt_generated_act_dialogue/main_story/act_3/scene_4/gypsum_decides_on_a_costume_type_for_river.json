@@ -1,0 +1,40 @@
+
+{
+    "conversation": [
+        {
+            "id": "1",
+            "speaker": "River",
+            "text": "Umm, hi. I-I need a disguise, can you help me?"
+        },
+        {
+            "id": "2",
+            "speaker": "Gypsum",
+            "text": "Of course, what kind of disguise are you looking for?"
+        },
+        {
+            "id": "3",
+            "speaker": "River",
+            "text": "I-I don't know. Something that will make me look completely different."
+        },
+        {
+            "id": "4",
+            "speaker": "Gypsum",
+            "text": "Hmm, let's see... I could dress you up as a nobleman, a commoner, a scholar, a merchant... Oh! I know, a mysterious traveler. That could be interesting."
+        },
+        {
+            "id": "5",
+            "speaker": "River",
+            "text": "I-I don't know, I feel embarrassed. I'm not sure I could pull it off."
+        },
+        {
+            "id": "6",
+            "speaker": "Gypsum",
+            "text": "Don't worry, I'll help you pick out the perfect disguise. Trust me, you'll look great."
+        },
+        {
+            "id": "7",
+            "speaker": "River",
+            "text": "O-okay, thank you."
+        }
+    ]
+}
