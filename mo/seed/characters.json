@@ -1,0 +1,67 @@
+[{
+	"name": "Cornell",
+	"level": "1",
+	"strength": "20",
+	"defence": "18",
+	"health": "125",
+	"speed": "15",
+	"physicalState": "normal",
+	"courage": "10",
+	"mentalState": "normal",
+	"power": "5",
+	"magicalState": "normal"
+},
+{
+	"name": "Mim",
+        "level": "1",
+        "strength": "15",
+        "defence": "14",
+        "health": "130",
+        "speed": "22",
+        "physicalState": "normal",
+        "courage": "8",
+        "mentalState": "normal",
+        "power": "4",
+        "magicalState": "normal"
+},
+{
+        "name": "Deana",
+        "level": "1",
+        "strength": "16",
+        "defence": "16",
+        "health": "140",
+        "speed": "19",
+        "physicalState": "normal",
+        "courage": "11",
+        "mentalState": "normal",
+        "power": "6",
+        "magicalState": "normal"
+},
+{
+	"name": "Ranwik",
+        "level": "1",
+        "strength": "12",
+        "defence": "10",
+        "health": "100",
+        "speed": "18",
+        "physicalState": "normal",
+        "courage": "12",
+        "mentalState": "normal",
+        "power": "14",
+        "magicalState": "normal"
+
+},
+{
+        "name": "Pelu",
+        "level": "1",
+        "strength": "3",
+        "defence": "5",
+        "health": "180",
+        "speed": "13",
+        "physicalState": "normal",
+        "courage": "12",
+        "mentalState": "normal",
+        "power": "20",
+        "magicalState": "normal"
+}
+]

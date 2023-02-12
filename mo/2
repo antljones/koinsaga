@@ -1,0 +1,245 @@
+function docReady(fn) {
+    // see if DOM is already available
+    if (document.readyState === "complete" || document.readyState === "interactive") {
+        // call on next available tick
+        setTimeout(fn, 1);
+    } else {
+        document.addEventListener("DOMContentLoaded", fn);
+    }
+}
+
+
+docReady(function() {
+	const canvas = document.getElementById("renderCanvas");
+	const engine = new BABYLON.Engine(canvas,true);
+	const scene = new BABYLON.Scene(engine);
+
+	var currentCamera = null;
+
+	window.addEventListener("resize", function () {
+		engine.resize();
+		canvas.width = window.innerWidth;
+		canvas.height = window.innerHeight;
+	});
+
+	load_menu_environment();
+
+	// load socket.io
+	const socket = io();
+
+
+socket.io.on("error", (error) => {
+	console.log("Could not connect to server");
+});
+
+//-------------------------------------------------
+//camera shots
+/*
+ * Universal Camera - the one to choose for first person shooter type games, and works with all the keyboard, mouse, touch and gamepads. With this camera you can check for collisions and apply gravity.
+
+Arc Rotate Camera - which acts like a satellite in orbit around a target and always points towards the target position.
+
+Follow Camera - this takes a mesh as a target and follows it as it moves. Both a free camera version followCamera and an arc rotate version arcFollowCamera are available.
+*/
+//-------------------------------------------------
+function incremental_crane_shot(canvas,  name, speedAndAcceleration, transparentTextureURL) {
+	// Parameters: name, position, scene
+var camera = new BABYLON.FollowCamera(name, new BABYLON.Vector3(0, 10, -10), scene);
+
+// The goal distance of camera from target
+camera.radius = 30;
+
+// The goal height of camera above local origin (centre) of target
+camera.heightOffset = 10;
+
+// The goal rotation of camera around local origin (centre) of target in x y plane
+camera.rotationOffset = 0;
+
+// Acceleration of camera in moving from current to goal position
+camera.cameraAcceleration = speedAndAcceleration;
+
+// The speed at which acceleration is halted
+camera.maxCameraSpeed = speedAndAcceleration;
+
+//create an invisible plane to act as the target mesh
+const targetMesh = BABYLON.MeshBuilder.CreatePlane("plane", {size: 1, width: 5, height: 1, updatable: false}, scene);
+var transparentMaterial = new BABYLON.StandardMaterial(transparentTextureURL, scene);
+	transparentMaterial.diffuseTexture = new BABYLON.Texture(transparentTextureURL, scene);
+	//transparentMaterial.alpha = 0.5;
+	transparentMaterial.diffuseTexture.hasAlpha = true;
+	//transparentMaterial.useAlphaFromDiffuseTexture = true;
+	targetMesh.material = transparentMaterial;
+// This attaches the camera to the canvas
+//camera.attachControl(canvas, true);
+	
+
+	//reposition the plane
+
+// targetMesh created here.
+camera.lockedTarget = targetMesh; //version 2.5 onwards
+
+scene.activeCamera = camera;
+}
+
+function point_shot() {
+}
+
+function top_view_shot(name, transparentTextureURL, cameraX, cameraY, cameraZ, positionX, positionY, positionZ, cameraMaxSpeed) {
+        
+	var camera = new BABYLON.FollowCamera(name, new BABYLON.Vector3(cameraX, cameraY, cameraZ), scene);
+
+	//create an invisible plane to act as the target mesh
+       	var cameraMesh = BABYLON.MeshBuilder.CreatePlane("plane", {size: 1, width: 1, height: 1, updatable: false}, scene);
+	cameraMesh.position.x = positionX;
+	cameraMesh.position.y = positionY;
+	cameraMesh.position.z = positionZ;
+	var transparentMaterial = new BABYLON.StandardMaterial(transparentTextureURL, scene);
+        transparentMaterial.diffuseTexture = new BABYLON.Texture(transparentTextureURL, scene);
+        //transparentMaterial.alpha = 0.5;
+        transparentMaterial.diffuseTexture.hasAlpha = true;
+        //transparentMaterial.useAlphaFromDiffuseTexture = true;
+        cameraMesh.material = transparentMaterial;
+	
+
+	//let's make the camera always stay above 0 as the top view
+	//if (cameraY < 1) {
+	//	cameraY = 1;
+	//}
+	
+	//set the camera at a stable distance from the target mesh
+	// The goal distance of camera from target is the distance
+	// between targetMesh vector and camera vector
+	camera.radius = Math.sqrt( Math.pow(cameraMesh.position.x - cameraX,2) + Math.pow(cameraMesh.position.y - cameraY,2) + Math.pow(cameraMesh.position.y - cameraY,2)  );
+
+	// The goal height of camera above local origin (centre) of target
+	camera.heightOffset = 0;
+
+	// The goal rotation of camera around local origin (centre) of target in x y plane
+	camera.rotationOffset = 0;
+
+	// Acceleration of camera in moving from current to goal position
+	camera.cameraAcceleration = 1;
+
+	// The speed at which acceleration is halted
+	camera.maxCameraSpeed = cameraMaxSpeed;
+
+// This attaches the camera to the canvas
+//camera.attachControl(canvas, true);
+
+
+//reposition the plane
+
+// targetMesh created here.
+	camera.lockedTarget = cameraMesh; //version 2.5 onwards
+
+	scene.activeCamera = camera;
+
+}
+
+//------------------------------------------------
+// camera positions
+// -----------------------------------------------
+
+
+//------------------------------------------------
+// global scene variables
+//------------------------------------------------
+
+//------------------------------------------------
+// socket.io messages
+//------------------------------------------------
+socket.on("connect", () => {
+
+	console.log("socket connected: " + socket.connected);
+	// Handle front menu events
+
+	document.getElementById('newgamebutton').addEventListener('click', (event) => {
+		socket.emit("menu_event", "new_game");
+		console.log("new game event fired");
+		start_game(currentCamera);
+	});
+
+	//handle the games events
+	
+	socket.on("game_event", (eventId) => {
+		socket.emit("event_call", eventId);
+	});
+	
+	socket.on("event_response", (eventRes) => {
+		handleResponse(JSON.parse(eventRes));
+	});
+	
+});
+
+// Handle game events 
+function handleResponse(jsonData) {
+
+	switch(jsonData.event_type) {
+		case "new_game":
+			notify_save_id(jsonData.save_id);
+			start_game();
+			break;
+	}
+}
+
+function notify_save_id(saveId) {
+}
+
+function start_game() {
+	//hide the menu
+	document.getElementById('menu').hidden = true;
+	document.getElementById('menuitems').hidden = true;
+
+	const mesh1 = BABYLON.MeshBuilder.CreateBox("box", {size:20}, scene);
+	mesh1.position.x = 0;
+	mesh1.position.y = 0;
+	mesh1.position.z = 0;
+
+	const mesh2 = BABYLON.MeshBuilder.CreateBox("box2", {size:10}, scene);
+        mesh2.position.x = 0;
+        mesh2.position.y = 20;
+        mesh2.position.z = 0;
+
+
+	//incremental_crane_shot(canvas, "camera2", 0.01, "textures/transparenttexture.png");
+	//top_view_shot( "topviewcamera", "textures/transparenttexture.png",0, 0, 20, mesh1.position.x,mesh1.position.y,mesh1.position.z,1); 
+	
+	const camera = new BABYLON.FreeCamera("camera3", new BABYLON.Vector3(0, 10, 0), scene);
+        // Targets the camera to scene origin
+        camera.setTarget(new BABYLON.Vector3(0,0,0));
+        // This attaches the camera to the canvas
+        camera.attachControl(canvas, true);
+
+	scene.activeCamera = camera;
+}
+
+function load_map() {
+
+}
+
+function load_menu_environment() {
+	canvas.width= window.innerWidth;
+	canvas.height=window.innerHeight;
+
+	currentCamera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 5, -10), scene);
+
+	currentCamera.setTarget(BABYLON.Vector3.Zero());
+	currentCamera.attachControl(canvas, true);
+
+	scene.activeCamera = currentCamera;
+
+	const light = new BABYLON.HemisphericLight("light",
+		new BABYLON.Vector3(0, 1, 0), scene);
+	light.intensity = 0.7
+
+        /*const ground = BABYLON.MeshBuilder.CreateGround("ground",
+        {width: window.innerWidth, height: window.innerHeight}, scene);
+*/
+        engine.runRenderLoop(function () {
+               scene.render();
+        });
+}
+
+}); //end docReady
+
+

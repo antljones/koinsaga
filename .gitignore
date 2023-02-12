@@ -1,0 +1,7 @@
+mo/logs/
+mo/modifiedLibraries/
+mo/node_modules/
+mo/tmp
+mo/.swp
+mo/package-lock.json
+mo/output

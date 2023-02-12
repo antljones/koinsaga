@@ -1,0 +1,16 @@
+[Unit]
+Description=Koin Database Server
+
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/node /root/mo/databaseserver.js $ARG1
+ExecStop=/usr/bin/node /root/mo/databaseserver.js $ARG2
+Environment="ARG1=start"
+Environment="ARG2=stop"
+
+StandardOutput=append:/var/log/databaseserver.log
+StandardError=inherit
+
+[Install]
+WantedBy=multi-user.target

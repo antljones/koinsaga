@@ -1,0 +1,3 @@
+//to troubleshoot and get temporary access to permission problem read log
+
+journalctl -t setroubleshoot

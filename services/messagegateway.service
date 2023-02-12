@@ -1,0 +1,15 @@
+[Unit]
+Description=Koin Message Gateway
+
+[Service]
+User=root
+Group=root
+ExecStart=/usr/bin/node /root/mo/messagegateway.js $ARG1
+Environment="ARG1=start"
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifer=koin_messagegateway
+
+[Install]
+WantedBy=multi-user.target

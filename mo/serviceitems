@@ -1,0 +1,4 @@
+/usr/lib/systemd/system/databaseserver.service | systemctl enable databaseserver.service
+/usr/lib/systemd/system/messagegateway.service | systemctl enable messagegateway.service
+/usr/lib/systemd/system/eventserver.service | systemctl enabel eventserver.service
+/opt/nodeexporter
