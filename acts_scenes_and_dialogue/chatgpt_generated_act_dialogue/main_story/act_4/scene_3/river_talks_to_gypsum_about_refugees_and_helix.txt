@@ -1,0 +1,52 @@
+{
+ "dialogue": [
+   {
+     "speaker": "River",
+     "line": "Have you seen the refugees coming into the city? They're saying that their cities have been purged and they have nowhere else to go."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "Yes, it's a sad situation. I wonder if Helix will also be purged."
+   },
+   {
+     "speaker": "River",
+     "line": "It's a real concern. I've heard that the enemy has been getting stronger and that they're not afraid to attack even the largest cities."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "We need to be prepared. I've heard that some of the smaller cities were caught off guard and didn't have a chance to defend themselves."
+   },
+   {
+     "speaker": "River",
+     "line": "That's why we need to make sure that Helix is ready. We need to fortify the city walls, train our army, and make sure that we have a plan in place in case of an attack."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "I couldn't agree more. We need to do everything in our power to protect our home and our people."
+   }
+ ]
+}
+{
+ "dialogue": [
+   {
+     "speaker": "Gypsum",
+     "line": "I've been thinking about how Narcia will defend the city from being purged. They say that the enemy is much stronger this time and that they have the latest weapons and technology."
+   },
+   {
+     "speaker": "River",
+     "line": "Yes, it's a serious concern. But we have to have faith in our leaders and the army. They've been preparing for this for a long time, and they won't let us down."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "I've heard some rumors that Narcia has a secret weapon that will help turn the tide of the battle in their favor. And I happen to know a little more about it."
+   },
+   {
+     "speaker": "River",
+     "line": "Really? What do you know?"
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "I can't reveal too much, but let's just say it's a game changer. Narcia has been preparing for this for a long time and they have a lot of tricks up their sleeves."
+   }
+ ]
+}

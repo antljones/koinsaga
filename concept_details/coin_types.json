@@ -14,6 +14,7 @@
 			"name": "empower coin"
 			"details": "Buffs other holders of a face coin with the owner's stats"
 			"type": "rare coin"
+			"cons": "the user temporarily loses all abilities"
 		},
 		{
 			"name": "Harvest Night Saint coin"
@@ -23,7 +24,7 @@
 		},
 		{
 			"name": "transform coin"
-			"details": "Allows the user to save the current transformation up to a total of 4 transformations"
+			"details": "Allows the user to randomly transform and save the current transformation up to a total of 4 transformations"
 			"cons": "only available for transforming type beings"
 		},
 		{
@@ -60,6 +61,53 @@
 		{
 			"name": "curse coin"
 			"details": "casts a random curse on a target"
+		},
+		{	
+			"name": "inheritance coin",
+			"details": "When you die your last stats get added to your party members for the duration of the fight"
+			"cons": "your party loses this buff if you are resurrected"
+			"type": "semirare coin"
+		},
+		{
+			"name": "necromancer coin"
+			"details": "resurrect a party member"
+			"cons": "resurrected member cannot use abilities"
+		},
+		{
+			"name": "borrow coin"
+			"details": "takes an item from a party member"
+		},
+		{
+			"name": "steal coin"
+			"details": "takes an item from an enemy"
+		},
+		{
+			"name": "plenty coin"
+			"details": "increases gold from loot by 20%"
+		},
+		{
+			"name": "armour coin"
+			"details": "increases resistance to physical damage by 20%"
+		},
+		{
+			"name": "warp coin"
+			"details": "increases speed and decreases physical ability cooldown by 15%"
+		},
+		{
+			"name": "nullify coin"
+			"details": "remove any debuffs"
+		},
+		{
+			"name": "defence coin"
+			"details": "prevents burn and electrocution damage"
+		},
+		{
+			"name": "shield coin"
+			"details": "blocks physical attacks for the health of the shield"
+		},
+		{
+			"name": "charge coin"
+			"details": "electric based attacks reduce the wielders cooldowns"
 		}
 	]
 }

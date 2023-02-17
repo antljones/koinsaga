@@ -1,0 +1,36 @@
+{
+ "dialogue": [
+   {
+     "speaker": "River",
+     "line": "What are Mood's acolytes? I've never heard of them before."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "Oh River, be careful. They are a dangerous group of people, known for their extreme devotion to Mood."
+   },
+   {
+     "speaker": "Cornell",
+     "line": "We need to be careful around them. They have a lot of power and influence, and they're not afraid to use it."
+   },
+   {
+     "speaker": "Goran",
+     "line": "I wouldn't trust them. They'll say anything to get what they want and they won't hesitate to harm anyone who stands in their way."
+   },
+   {
+     "speaker": "River",
+     "line": "Really? I had no idea. They sound like a force to be reckoned with."
+   },
+   {
+     "speaker": "Gypsum",
+     "line": "Yes, they are. We need to be cautious and stay away from them if possible."
+   },
+   {
+     "speaker": "Cornell",
+     "line": "It's important that we educate ourselves about them and their ways so that we can be prepared if they ever cross our path."
+   },
+   {
+     "speaker": "Goran",
+     "line": "Agreed. We need to be vigilant and keep our guard up."
+   }
+ ]
+}
