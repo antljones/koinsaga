@@ -108,6 +108,103 @@
 		{
 			"name": "charge coin"
 			"details": "electric based attacks reduce the wielders cooldowns"
+		},
+		{
+			"name": "float coin"
+			"details": "change your vertical position to avoid attacks"
+		},
+		{
+			"name": "multiply coin"
+			"details": "triples the number of enemies of the targeted type"
+		},
+		{
+			"name": "spark coin"
+			"details": "gives the user a range of fire type abilities"
+		},
+		{
+			"name": "slow coin"
+			"details": "slows the user down for a period of time"
+		},
+		{
+			"name": "conjure coin"
+			"details": "create an item"
+		},
+		{
+			"name": "key coin"
+			"details": "open any lock except forbidden ones"
+		},
+		{
+			"name": "titan coin"
+			"details": "grow your size and increase physical damage"
+		},
+		{
+			"name": "shrink coin"
+			"details": "shrink your size"
+		},
+		{
+			"name": "prevention coin"
+			"details": "stop your target from using their coins for a time" 
+		},
+		{
+			"name": "expansion coin"
+			"details": "increases your attack area"
+		},
+		{
+			"name": "contraction coin"
+			"details": "decreases your attack area and increases damage"
+		},
+		{
+			"location coin"
+			"details": "displays an area around enemies and allies of coins you also hold"
+		},
+		{
+			"vision coin"
+			"details": "expands your area of vision"
+		},
+		{
+			"attract coin"
+			"details": "pulls a player or object towards you"
+		},
+		{
+			"repulse coin"
+			"details": "pushes a player or object away from you"
+		},
+		{
+			"stun coin"
+			"details": "freezes a player or object in place for a period of time"
+		},
+		{
+			"resonance coin"
+			"details": "add hammer like blows to your physical atttacks"
+		},
+		{
+			"enhancement coin"
+			"details": "increases the stats of an item"
+		},
+		{
+			"form coin"
+			"details": "reconstitute a being from remaining parts"
+		},
+		{
+			"fortify coin"
+			"details": "hardens your body again certain attacks and abilities"
+		},
+		{	
+			"evolution coin"
+			"details": "gain extra abilities, senses and stats"
+		},
+		{
+			"nerve coin"
+			"details": "remove stun or other effects"
+		},
+		{
+			"charge coin"
+			"details": "electrocute on touch"
+		},
+		{
+			"capacitor coin"
+			"details": "absorb electric based damage up to a limit"
 		}
+		
 	]
 }
